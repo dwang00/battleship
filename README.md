@@ -19,7 +19,7 @@ ex:<pre>       your board                 enemy board </pre>
   
 I plan to represent the boards with files and edit the files as the game state changes. I plan to store board info in 2 double arrays, so I would have to allocate memory to both. The program would cat the files in order to display the boards. I will use signals to separate turns.
 
-1/5 - get boards to display properly
-1/9 - be able to arrange ships
-1/13 - finish computer ai
-1/17 - be able to play a game of battleship
+1/5 - get boards to display properly  
+1/9 - be able to arrange ships  
+1/13 - finish computer ai  
+1/17 - be able to play a game of battleship  
