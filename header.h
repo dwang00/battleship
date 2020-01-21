@@ -1,0 +1,12 @@
+int newBoard();
+int * place(int ship, int * data, int * yb);
+int getRow(int ship, int row);
+int getColumn(int ship, int column);
+int getOrientation(int ship, int orientation);
+int testHit(int row, int column, int * board);
+int * guess(int * coord, int * yourguesses);
+int thething(int * ship, int * yb, int l);
+int showYourBoard(int * yb);
+int gencompboard(int * bb);
+int compguess(int * yb);
+int showEnemyBoard(int * yb);

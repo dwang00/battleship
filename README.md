@@ -1,25 +1,15 @@
-# battleship
+Battleship
 
-David Wang
+David Wang pd 5
 
-This project is a recreation of the board game battleship on the command line. The goal is to use text to simulate 2 boards, one with your ships visible and the other being the computer's, ships invisible. Hits will be tracked by revealing the cell that was a hit, and misses will be represented by "o"s.
+Recreation of battleship board game.
 
-ex:<pre>       your board                 enemy board </pre>
-<pre>    0 1 2 3 4 5 6 7 8 9         0 1 2 3 4 5 6 7 8 9  
-  0 - - * * * * * - - -       0 - - - - - - - - - -  
-  1 - - * * * - - - - -       1 - - - - - - - - - -  
-  2 - - * * - - - - - -       2 - - - - - - - - - -  
-  3 - - * * * * - - - -       3 - - - - - - - - - -  
-  4 - - * * * - - - - -       4 - - - - - - - - - -  
-  5 - - - - - - - - - -       5 - - - - - - - - - -  
-  6 - - - - - - - - - -       6 - - - - - - - - - -  
-  7 - - - - - - - - - -       7 - - - - - - - - - -  
-  8 - - - - - - - - - -       8 - - - - - - - - - -  
-  9 - - - - - - - - - -       9 - - - - - - - - - -  </pre>
-  
-I plan to represent the boards with files and edit the files as the game state changes. I plan to store board info in 2 double arrays, so I would have to allocate memory to both. The program would cat the files in order to display the boards. I will use signals to separate turns.
+Things to note
+you will be prompted to place TWO 3 unit long boats
+instructions can be viewed in the program
+the program will tell you if you select a tile you already selected   
+the program will tell you if your ship placement is invalid  
+your ships are "\*", hits are "x", misses are "o"
+player vs computer
 
-1/5 - get boards to display properly  
-1/9 - be able to arrange ships  
-1/13 - finish computer ai  
-1/17 - be able to play a game of battleship  
+did not figure out how to get "ship has sunken" announcements to work

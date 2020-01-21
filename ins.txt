@@ -1,0 +1,20 @@
+Rules for BattleShip (a Milton Bradley Game)
+
+Game Objective
+The object of Battleship is to try and sink all of the other player's before they sink all of your ships. All of the other player's ships are somewhere on their board.  You try and hit them by calling out the coordinates on the board.  The other player also tries to hit your ships by calling out coordinates.  Neither you nor the other player can see the other's board so you must try to guess where they are.
+
+Starting a New Game
+Each player places the 5 ships somewhere on their board.  The ships can only be placed vertically or horizontally. Diagonal placement is not allowed. No part of a ship may hang off the edge of the board.  Ships may not overlap each other.  No ships may be placed on another ship.
+
+Once the guessing begins, the players may not move the ships.
+
+The 5 ships are:  Carrier (occupies 5 spaces), Battleship (4), Destroyer (3), Submarine (3), and Patrol Boat (2).
+
+Playing the Game
+Player's take turns guessing by calling out the coordinates. The opponent responds with "hit" or "miss" as appropriate.  Boards are automatically marked:  "x" for hit, "o" for miss. For example, if you call out 5,6 and your opponent does not have any ship located at 5,6, the computer will mark it with "o".
+
+When all of the coordinates that one your ships occupies have been hit, the ship will be sunk.
+
+As soon as all of one player's ships have been sunk, the game ends.
+
+Taken from https://www.cs.nmsu.edu/~bdu/TA/487/brules.htm, modified for this version of the game
